@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
-// TeacherManagement
+
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -53,7 +53,7 @@ public class Main {
                 // 那么应被砍用户剩余的钱 直接当做当前用户的 应砍价格
                 kMoney = sMoney;
             } else {
-                //4.生成砍价得金额  生成得金额，是从0开始，所以保证不能出现0得问题
+                //生成砍价得金额  生成得金额，是从0开始，所以保证不能出现0得问题
                 kMoney = rm.nextInt(sMoney) + 1;
             }
             // 更新被砍用户的砍价总额
